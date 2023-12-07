@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -6,8 +7,8 @@ const Footer = () => {
       <div className="container mx-auto flex flex-col lg:flex-row justify-between items-center">
         <div>
           <ul className='font-extralight'>
-            <li className='mb-2 hover:underline'><a href="/">Inicio</a></li>
-            <li className='mb-2 hover:underline'><a href="/contacto">Contacto</a></li>
+            <li className='mb-2 hover:underline'><Link href="/">Inicio</Link></li>
+            <li className='mb-2 hover:underline'><Link href="/contacto">Contacto</Link></li>
             <li className='mb-2 hover:underline'><a href="/preguntas-frecuentes">Preguntas Frecuentes</a></li>
             <li className='mb-2 hover:underline'><a href="/aviso-de-privacidad">Aviso de Privacidad</a></li>
             <li className='mb-2 hover:underline'><a href="/terminos-y-condiciones">Términos y Condiciones</a></li>

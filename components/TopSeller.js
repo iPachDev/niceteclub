@@ -1,5 +1,5 @@
 import React from 'react';
-import {Card, CardBody, CardFooter, Image, Skeleton} from "@nextui-org/react";
+import {Card, CardBody, CardFooter, Image, Skeleton, Badge} from "@nextui-org/react";
 
 export default function TopSeller({title, slug, list, isLoading}) {
     
